@@ -8,9 +8,7 @@ function Student(nombre, correo, promedio) {
       return this.promedio > 70 ? "Aprobado" : "Reprobado";
     };
   
-
     this.obtenerUsuario = function() {
-
       return this.correo.split('@')[0];
     };
   }
